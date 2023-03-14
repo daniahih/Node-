@@ -12,4 +12,4 @@ fs.renameSync("task2.txt", "task2Renamed.txt");
 console.log(fs.readdirSync("./"));
 
 // 5. Find out and implement another method for the fs module.
-fs.mkdirSync("./", "test");
+fs.appendFileSync("task.txt", "iam dania hih");
